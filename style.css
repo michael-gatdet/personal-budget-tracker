@@ -1,0 +1,121 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* ID selector */
+#main-header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+/* Class selector */
+.add-expense-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form {
+    max-width: 500px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Negation pseudo-class */
+input:not([type="submit"]),
+select {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Focus pseudo-class */
+input:focus,
+select:focus {
+    outline: 2px solid blue;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Expenses section */
+.expenses-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Descendant selector */
+.expenses-section td {
+    padding: 12px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table cells */
+th,
+td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Colored header */
+thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Alternating rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Details section */
+details {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Video section */
+.video-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
