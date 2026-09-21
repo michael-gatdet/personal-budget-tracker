@@ -1,40 +1,95 @@
- Personal Budget Tracker
+SpendWise Dashboard
 
 Description
 
-The Personal Budget Tracker is a simple website for recording and viewing personal expenses.
+SpendWise is a personal budget tracker dashboard designed to help users view and organize their financial information.
+
+This week, I rebuilt the Budget Tracker layout using CSS Grid and Flexbox to create a clean and responsive dashboard interface.
 
 What I Built
 
- 1. Header
-The header contains the website logo, title, and a short description.
+1. Sidebar Navigation
 
-2. Add Expense Form
-The form allows users to enter an expense name and amount and select an expense category.
+The dashboard includes a sidebar with navigation links for:
 
-The category dropdown contains:
- Food
- Transport
- Rent
- Entertainment
- Other
+* Dashboard
+* Expenses
+* Income
+* Savings
+* Reports
 
- 3. Expense Table
-The expense table displays sample expenses with their:
-Name
-Amount
-Category
-Date
+2. Dashboard Header
 
- 4. How to Use
-A collapsible section explains how the budget tracker works.
- 5. Multimedia
-An image is used as the website logo, and a YouTube video is embedded to provide budgeting tips.
+The header displays the SpendWise title, a short description, and a welcome message.
 
- 6. CSS Styling
-CSS is used to style the page, form, table, button, and other sections. Advanced selectors such as descendant selectors, :nth-child():not(), :focus`, and :hover` are also used.
+3. Financial Category Cards
+
+The dashboard contains six financial cards:
+
+* Food
+* Transport
+* Rent
+* Entertainment
+* Savings
+* Utilities
+
+Each card contains realistic static financial information.
+
+4. CSS Grid
+
+CSS Grid is used for the main dashboard layout and for arranging the financial cards.
+
+The desktop layout contains a sidebar and main content area.
+
+5. Flexbox
+
+Flexbox is used inside:
+
+* The sidebar
+* Navigation menu
+* Dashboard header
+* Financial cards
+
+6. CSS Custom Properties
+
+CSS variables are defined inside :root for:
+
+* Brand color
+* Accent color
+* Background color
+* Surface color
+* Primary text color
+* Secondary text color
+* Border color
+
+7. Responsive Design
+
+A media query is used below 768px to change the dashboard into a single-column layout for smaller screens.
+
+8. Card Micro-interactions
+
+Dashboard cards include hover and keyboard focus effects using:
+
+* transform
+* box-shadow
+* transition
+
+The animation duration is 200ms.
+
+9. Dark Theme
+
+A dark theme is included using:
+
+@media (prefers-color-scheme: dark)
+
+The dark theme overrides the CSS variables without changing the main layout styles.
 
 Technologies Used
 
--HTML5
--CSS3
+* HTML5
+* CSS3
+* CSS Grid
+* Flexbox
+* CSS Custom Properties
+* Google Fonts
+* Responsive Design
