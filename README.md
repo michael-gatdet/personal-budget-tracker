@@ -93,3 +93,33 @@ Technologies Used
 * CSS Custom Properties
 * Google Fonts
 * Responsive Design
+
+
+
+JavaScript Foundation
+
+SpendWise is a personal budget tracker that allows users to enter their budget and expenses and calculate their remaining balance.
+
+JavaScript Concepts Implemented
+
+The project uses JavaScript variables, data types, user input, calculations, functions, and console output.
+
+Variables
+
+Variables are used to store the budget, expenses, user budget, user expenses, and remaining balance.
+
+User Input
+
+The prompt() function collects the user's monthly budget and total expenses. The Number() function converts the input values from text into numbers.
+
+Budget Calculations
+
+The application calculates the remaining balance by subtracting total expenses from the user's budget.
+
+Functions
+
+The calculateBalance() function calculates the remaining balance. The function makes the calculation reusable and keeps the application logic organized.
+
+Displaying Results
+
+The application uses console.log() to display the budget, expenses, and remaining balance clearly in the browser console.
