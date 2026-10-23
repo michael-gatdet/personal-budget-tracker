@@ -123,3 +123,29 @@ The calculateBalance() function calculates the remaining balance. The function m
 Displaying Results
 
 The application uses console.log() to display the budget, expenses, and remaining balance clearly in the browser console.
+
+Improvements made: Dynamic financial cards, expense form, category totals, delete buttons, and budget warnings.
+
+
+
+Conditionals: Validate inputs and warn when spending reaches 80% or exceeds the budget.
+
+
+
+Arrays: Store multiple expense objects in the expenses array.
+
+
+
+Loops: Calculate totals and display expense records.
+
+
+
+DOM manipulation: Update dashboard amounts, messages, and expense lists.
+
+
+
+Events: Handle budget submissions, expense submissions, and Delete button clicks.
+
+
+
+Challenges and solutions: Explain how you recalculated totals after adding or deleting expenses and handled invalid input.
